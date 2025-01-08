@@ -1,0 +1,15 @@
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\bin\Debug\net9.0\EstruturaRepeticao.exe
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\bin\Debug\net9.0\EstruturaRepeticao.deps.json
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\bin\Debug\net9.0\EstruturaRepeticao.runtimeconfig.json
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\bin\Debug\net9.0\EstruturaRepeticao.dll
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\bin\Debug\net9.0\EstruturaRepeticao.pdb
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\obj\Debug\net9.0\EstruturaRepeticao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\obj\Debug\net9.0\EstruturaRepeticao.AssemblyInfoInputs.cache
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\obj\Debug\net9.0\EstruturaRepeticao.AssemblyInfo.cs
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\obj\Debug\net9.0\EstruturaRepeticao.csproj.CoreCompileInputs.cache
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\obj\Debug\net9.0\EstruturaRepeticao.sourcelink.json
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\obj\Debug\net9.0\EstruturaRepeticao.dll
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\obj\Debug\net9.0\refint\EstruturaRepeticao.dll
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\obj\Debug\net9.0\EstruturaRepeticao.pdb
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\obj\Debug\net9.0\EstruturaRepeticao.genruntimeconfig.cache
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\EstruturaRepeticao\obj\Debug\net9.0\ref\EstruturaRepeticao.dll

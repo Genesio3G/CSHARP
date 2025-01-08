@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CSHARP.Models;
+Pessoa pessoa = new Pessoa();
+
+pessoa.NomeCompleto = "Genesio Gonçalves Gabriel";
+pessoa.idade = 12; 
+pessoa.Apresentacao(); 

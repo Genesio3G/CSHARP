@@ -1,0 +1,15 @@
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\bin\Debug\net9.0\Classe.exe
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\bin\Debug\net9.0\Classe.deps.json
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\bin\Debug\net9.0\Classe.runtimeconfig.json
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\bin\Debug\net9.0\Classe.dll
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\bin\Debug\net9.0\Classe.pdb
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\obj\Debug\net9.0\Classe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\obj\Debug\net9.0\Classe.AssemblyInfoInputs.cache
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\obj\Debug\net9.0\Classe.AssemblyInfo.cs
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\obj\Debug\net9.0\Classe.csproj.CoreCompileInputs.cache
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\obj\Debug\net9.0\Classe.sourcelink.json
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\obj\Debug\net9.0\Classe.dll
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\obj\Debug\net9.0\refint\Classe.dll
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\obj\Debug\net9.0\Classe.pdb
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\obj\Debug\net9.0\Classe.genruntimeconfig.cache
+C:\Users\genes\OneDrive\Documentos\GITHUB\CSHARP\Classe\obj\Debug\net9.0\ref\Classe.dll
