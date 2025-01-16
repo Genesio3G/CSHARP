@@ -153,10 +153,17 @@ do
 - `int[]array = new int[]{42,12,7}`
 - `string[]nomes = {"jan","fev"}`
 
+$\color{red}{\textsf{Índice: }}$ É a posição de um determinado valor de um array, sempre começando com zero(0).
+
 ## 💻 $\color{red}{\textsf{Array}}$ Na Pratica 
 
 ## 📝 Conceitos sobre Classes
+`string[] nomeAluno = {"Genesio","Belita","Jessica"};
 
+for(int contador = 0; contador < nomeAluno.Length; contador++){
+    Console.WriteLine(" Posição do Aluno "+contador+" Nome do Aluno "+ nomeAluno[contador]);
+}
+`
 $\color{red}{\textsf{Classe: }}$ É uma abstração de um objeto do mundo real, e este objeto possui seus atributos , bem como também o tipo de ação que esse tipo de objeto tem a realizar (**métodos**).
 
 $\color{red}{\textsf{Exemplo: }}$ Classe do tipo **Pessoa**
