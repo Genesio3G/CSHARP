@@ -156,7 +156,35 @@ do
 $\color{red}{\textsf{Índice: }}$ É a posição de um determinado valor de um array, sempre começando com zero(0).
 
 ## 💻 $\color{red}{\textsf{Array}}$ Na Pratica 
+`string[] nomeAluno = {"Genesio","Belita","Jessica"};
 
+for(int contador = 0; contador < nomeAluno.Length; contador++){
+    Console.WriteLine(" Posição do Aluno "+contador+" Nome do Aluno "+ nomeAluno[contador]);
+}
+
+foreach(string valor  in nomeAluno){
+  Console.WriteLine(valor);
+}`
+## 📝 Conceito de foreach
+É uma estrutura de dados que armazena valores do mesmo tipo, com tamanho fixo
+
+**Estrutura**
+- `int[]array = new int[5]`
+- `int[]array = new int[]{42,12,7}`
+- `string[]nomes = {"jan","fev"}`
+
+$\color{red}{\textsf{Índice: }}$ É a posição de um determinado valor de um array, sempre começando com zero(0).
+
+## 💻 $\color{red}{\textsf{Foreach}}$ Na Pratica 
+`string[] nomeAluno = {"Genesio","Belita","Jessica"};
+
+for(int contador = 0; contador < nomeAluno.Length; contador++){
+    Console.WriteLine(" Posição do Aluno "+contador+" Nome do Aluno "+ nomeAluno[contador]);
+}
+
+foreach(string valor  in nomeAluno){
+  Console.WriteLine(valor);
+}`
 ## 📝 Conceitos sobre Classes
 `string[] nomeAluno = {"Genesio","Belita","Jessica"};
 
