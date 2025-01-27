@@ -5,7 +5,7 @@ namespace CSHARP.Models
     {
 
         public string? NomeCompleto { get; set; }
-
+        public object SobrenomeCompleto { get; }
         public int idade { get; set; }
 
         public void Apresentacao()
@@ -15,5 +15,9 @@ namespace CSHARP.Models
 
         }
 
+    public Pessoa(string nome, string sobrenome){
+        NomeCompleto = nome;
+        SobrenomeCompleto = sobrenome;
+    }
     }
 }
