@@ -39,7 +39,7 @@ namespace Classe.Models
         public void AdicionarAluno(Aluno aluno)
         {
             Aluno?.Add(aluno);
-            Console.WriteLine($"{aluno.Nome} {aluno.Sobrenome} adicionado com sucesso");
+            Console.WriteLine($"Aluno {aluno.Nome} {aluno.Sobrenome} adicionado com sucesso");
         }
         public int ObterQuantidadeDeAluno()
         {
@@ -59,11 +59,11 @@ namespace Classe.Models
                 Console.WriteLine("Nenhum aluno encontrado.");
                 return;
             }
-
+            Console.WriteLine("Lista de Alunos");   
             foreach (Aluno aluno in Aluno)
             {
-                Console.WriteLine(aluno.Nome);
-                Console.WriteLine(aluno.Sobrenome);
+                
+                Console.WriteLine(aluno.Nome +" "+aluno.Sobrenome);
             }
         }
     }
