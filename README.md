@@ -109,7 +109,8 @@ O while é uma estrutura de repetição que irá repetir o bloco de código enqu
 }`
 
 ## 💻 $\color{red}{\textsf{While}}$ Na Pratica 
-`int numero = -1;
+```
+int numero = -1;
 while (numero != 10)
 {
     Console.Write("Digite um número: ");
@@ -126,7 +127,8 @@ while (numero != 10)
     {
         Console.WriteLine("Parabéns, você acertou!");
     }
-}`
+}
+```
 
 ### 📝 Estrutura do while
 A estrutura do/while é bem semelhante a estrutura while, a diferença é que na estrutura do/while a condição é testada apenas ao final do loop, ou seja, o código será executado ao menos uma vez, mesmo que a condição seja falsa desde o início.
@@ -138,12 +140,14 @@ A estrutura do/while é bem semelhante a estrutura while, a diferença é que na
 `
 
 ## 💻 $\color{red}{\textsf{Do While}}$ Na Pratica 
-`int contador = 15;
+```
+int contador = 15;
 do
 {
     Console.WriteLine("O contador vale: " + contador);
     contador++;
-} while (contador <= 10);`
+} while (contador <= 10);
+```
 
 ## 📝 Conceito de Array 
 É uma estrutura de dados que armazena valores do mesmo tipo, com tamanho fixo
@@ -156,7 +160,8 @@ do
 $\color{red}{\textsf{Índice: }}$ É a posição de um determinado valor de um array, sempre começando com zero(0).
 
 ## 💻 $\color{red}{\textsf{Array}}$ Na Pratica 
-`string[] nomeAluno = {"Genesio","Belita","Jessica"};
+```
+string[] nomeAluno = {"Genesio","Belita","Jessica"};
 
 for(int contador = 0; contador < nomeAluno.Length; contador++){
     Console.WriteLine(" Posição do Aluno "+contador+" Nome do Aluno "+ nomeAluno[contador]);
@@ -164,7 +169,8 @@ for(int contador = 0; contador < nomeAluno.Length; contador++){
 
 foreach(string valor  in nomeAluno){
   Console.WriteLine(valor);
-}`
+}
+```
 ## 📝 Conceito de foreach
 É uma estrutura de dados que armazena valores do mesmo tipo, com tamanho fixo
 
@@ -176,7 +182,8 @@ foreach(string valor  in nomeAluno){
 $\color{red}{\textsf{Índice: }}$ É a posição de um determinado valor de um array, sempre começando com zero(0).
 
 ## 💻 $\color{red}{\textsf{Foreach}}$ Na Pratica 
-`string[] nomeAluno = {"Genesio","Belita","Jessica"};
+```
+string[] nomeAluno = {"Genesio","Belita","Jessica"};
 
 for(int contador = 0; contador < nomeAluno.Length; contador++){
     Console.WriteLine(" Posição do Aluno "+contador+" Nome do Aluno "+ nomeAluno[contador]);
@@ -184,14 +191,16 @@ for(int contador = 0; contador < nomeAluno.Length; contador++){
 
 foreach(string valor  in nomeAluno){
   Console.WriteLine(valor);
-}`
+}
+```
 ## 📝 Conceitos sobre Classes
-`string[] nomeAluno = {"Genesio","Belita","Jessica"};
+```
+string[] nomeAluno = {"Genesio","Belita","Jessica"};
 
 for(int contador = 0; contador < nomeAluno.Length; contador++){
     Console.WriteLine(" Posição do Aluno "+contador+" Nome do Aluno "+ nomeAluno[contador]);
 }
-`
+```
 $\color{red}{\textsf{Classe: }}$ É uma abstração de um objeto do mundo real, e este objeto possui seus atributos , bem como também o tipo de ação que esse tipo de objeto tem a realizar (**métodos**).
 
 $\color{red}{\textsf{Exemplo: }}$ Classe do tipo **Pessoa**
@@ -204,8 +213,9 @@ $\color{red}{\textsf{Exemplo: }}$ Classe do tipo **Pessoa**
 
 ## 💻 $\color{red}{\textsf{Classe}}$ Na Pratica 
 
+```
 ### namespace C_SHARP.Models
-`public class Pessoa
+public class Pessoa
 
 {
 
@@ -230,12 +240,12 @@ Pessoa pessoa = new Pessoa();
 pessoa.NomeCompleto = "Genesio Gonçalves Gabriel";
 pessoa.idade = 12;
 pessoa.Apresentacao();
-`
+```
 
 ## 📝 Conceitos sobre Propriedades
 Propriedades permitem que uma classe exponha dados de forma controlada. Elas são usadas como métodos de acesso (getters) e modificação (setters).
 ## 💻 $\color{red}{\textsf{Propriedades}}$ Na Pratica 
-`
+```
 class Carro
 {
     private string cor;
@@ -246,11 +256,11 @@ class Carro
         set { cor = value; }
     }
 }
-`
+```
 ## 📝 Conceitos sobre Métodos
 Métodos são funções definidas dentro de uma classe. Eles executam ações específicas.
 ## 💻 $\color{red}{\textsf{Métodos}}$ Na Pratica 
-`
+```
 class Carro
 {
     private string cor;
@@ -266,12 +276,12 @@ class Carro
         Console.WriteLine("O carro está sendo dirigido.");
     }
 }
+```
 
-`
 ## 📝 Conceitos sobre Construtores
 Construtores são métodos especiais chamados quando um objeto da classe é criado. Eles são usados para inicializar objetos.
 ## 💻 $\color{red}{\textsf{Construtores}}$ Na Pratica 
-`
+```
 class Carro
 {
     private string cor;
@@ -308,9 +318,10 @@ class Carro
         Console.WriteLine($"O carro {modelo} de cor {cor} está sendo dirigido.");
     }
 }
+```
 
-`
 ## 💻 $\color{red}{\textsf{propriedades, métodos e construtores}}$ Na Pratica 
+
 ``` 
 using System;
 
