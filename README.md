@@ -209,7 +209,28 @@ string resultado = (numero % 2 == 0) ? "Par" : "Ímpar";
 Console.WriteLine($"O número {numero} é {resultado}.");
 
 ```
+## 📝 Conceitos sobre Desconstrução de um Objeto
+A desconstrução permite extrair valores de um objeto e atribuí-los a variáveis de forma simplificada.
+## 💻 $\color{red}{\textsf{Desconstrução de um Objeto}}$ Na Pratica 
+```
+class Pessoa
+{
+    public string Nome { get; set; }
+    public int Idade { get; set; }
 
+    public void Deconstruct(out string nome, out int idade)
+    {
+        nome = Nome;
+        idade = Idade;
+    }
+}
+
+// Uso da desconstrução
+Pessoa pessoa = new Pessoa { Nome = "Alice", Idade = 30 };
+var (nome, idade) = pessoa;
+Console.WriteLine($"Nome: {nome}, Idade: {idade}");
+
+```
 
 ## 📝 Conceitos sobre Classes
 ```
