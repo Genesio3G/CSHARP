@@ -231,6 +231,43 @@ var (nome, idade) = pessoa;
 Console.WriteLine($"Nome: {nome}, Idade: {idade}");
 
 ```
+## 💻 $\color{red}{\textsf{,Tuplas,Operador Ternário e Desconstrução de um Objeto}}$ Na Pratica 
+```
+using System;
+
+class Programa
+{
+    static void Main()
+    {
+        // Exemplo de Tupla
+        var tupla = (nome: "Alice", idade: 30);
+        Console.WriteLine($"Nome: {tupla.nome}, Idade: {tupla.idade}");
+
+        // Exemplo de Operador Ternário
+        int numero = 10;
+        string resultado = (numero % 2 == 0) ? "Par" : "Ímpar";
+        Console.WriteLine($"O número {numero} é {resultado}.");
+
+        // Exemplo de Desconstrução
+        Pessoa pessoa = new Pessoa { Nome = "Alice", Idade = 30 };
+        var (nome, idade) = pessoa;
+        Console.WriteLine($"Nome: {nome}, Idade: {idade}");
+    }
+}
+
+class Pessoa
+{
+    public string Nome { get; set; }
+    public int Idade { get; set; }
+
+    public void Deconstruct(out string nome, out int idade)
+    {
+        nome = Nome;
+        idade = Idade;
+    }
+}
+
+```
 
 ## 📝 Conceitos sobre Classes
 ```
