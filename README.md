@@ -418,3 +418,18 @@ class Programa
 }
 
 ```
+## 📝 Conceitos sobre Conceito de Programação Orientada a Objetos (POO)
+POO é um paradigma de programação que utiliza "objetos" - que são instâncias de "classes" - para modelar dados e comportamento. Os quatro pilares da POO são:
+1.Abstração
+1.Encapsulamento
+1.Herança
+1.Polimorfismo
+### Tipos de Paradigmas de Programação
++ Procedural: Baseado em chamadas de procedimentos ou funções.
+
++ Orientado a Objetos: Baseado em objetos e classes.
+
++ Funcional: Baseado em funções matemáticas imutáveis.
+
++ Lógico: Baseado em regras lógicas.
+## 💻 $\color{red}{\textsf{propriedades, métodos e construtores}}$ Na Pratica 
