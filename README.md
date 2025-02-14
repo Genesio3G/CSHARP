@@ -233,10 +233,43 @@ pessoa.Apresentacao();
 `
 
 ## 📝 Conceitos sobre Propriedades
+Propriedades permitem que uma classe exponha dados de forma controlada. Elas são usadas como métodos de acesso (getters) e modificação (setters).
 ## 💻 $\color{red}{\textsf{Propriedades}}$ Na Pratica 
+`
+class Carro
+{
+    private string cor;
+
+    public string Cor
+    {
+        get { return cor; }
+        set { cor = value; }
+    }
+}
+`
 ## 📝 Conceitos sobre Métodos
+Métodos são funções definidas dentro de uma classe. Eles executam ações específicas.
 ## 💻 $\color{red}{\textsf{Métodos}}$ Na Pratica 
+`
+class Carro
+{
+    private string cor;
+
+    public string Cor
+    {
+        get { return cor; }
+        set { cor = value; }
+    }
+
+    public void Dirigir()
+    {
+        Console.WriteLine("O carro está sendo dirigido.");
+    }
+}
+
+`
 ## 📝 Conceitos sobre Construtores
+Construtores são métodos especiais chamados quando um objeto da classe é criado. Eles são usados para inicializar objetos.
 ## 💻 $\color{red}{\textsf{Construtores}}$ Na Pratica 
 `
 class Carro
@@ -273,6 +306,27 @@ class Carro
     public void Dirigir()
     {
         Console.WriteLine($"O carro {modelo} de cor {cor} está sendo dirigido.");
+    }
+}
+
+`
+## 💻 $\color{red}{\textsf{propriedades, métodos e construtores}}$ Na Pratica 
+`
+using System;
+
+class Programa
+{
+    static void Main()
+    {
+        // Usando o construtor padrão
+        Carro carro1 = new Carro();
+        carro1.Cor = "Vermelho";
+        carro1.Modelo = "Sedan";
+        carro1.Dirigir();
+
+        // Usando o construtor com parâmetros
+        Carro carro2 = new Carro("Azul", "Hatchback");
+        carro2.Dirigir();
     }
 }
 
