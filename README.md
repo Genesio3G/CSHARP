@@ -311,8 +311,8 @@ class Carro
 
 `
 ## 💻 $\color{red}{\textsf{propriedades, métodos e construtores}}$ Na Pratica 
-`
-using System;
+` /
+using System;/
 
 class Programa
 {
