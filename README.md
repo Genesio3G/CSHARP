@@ -193,6 +193,14 @@ foreach(string valor  in nomeAluno){
   Console.WriteLine(valor);
 }
 ```
+## 📝 Conceitos sobre Tuplas
+Tuplas são estruturas de dados que podem armazenar um número fixo de elementos, de diferentes tipos.
+## 💻 $\color{red}{\textsf{Tuplas}}$ Na Pratica 
+```
+var tupla = (nome: "Alice", idade: 30);
+Console.WriteLine($"Nome: {tupla.nome}, Idade: {tupla.idade}");
+```
+
 ## 📝 Conceitos sobre Classes
 ```
 string[] nomeAluno = {"Genesio","Belita","Jessica"};
