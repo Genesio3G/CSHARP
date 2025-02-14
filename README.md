@@ -433,4 +433,92 @@ Os quatro pilares da POO são:
 + Funcional: Baseado em funções matemáticas imutáveis.
 
 + Lógico: Baseado em regras lógicas.
-## 💻 $\color{red}{\textsf{propriedades, métodos e construtores}}$ Na Pratica 
+
+## 📝 Conceitos sobre Abstração
+A abstração é o processo de esconder detalhes complexos e mostrar apenas a funcionalidade essencial. Em C#, você pode usar classes e métodos para conseguir isso.
+## 💻 $\color{red}{\textsf{Abstração}}$ Na Pratica 
+csharp
+abstract class Forma
+{
+    public abstract void Desenhar();
+}
+
+class Circulo : Forma
+{
+    public override void Desenhar()
+    {
+        Console.WriteLine("Desenhando um círculo.");
+    }
+}
+## 📝 Conceitos sobre Encapsulamento
+Encapsulamento é o processo de esconder os detalhes internos de um objeto e proteger seus dados de acesso não autorizado. Você pode usar modificadores de acesso (private, public, protected) para controlar o acesso.
+## 💻 $\color{red}{\textsf{Encapsulamento}}$ Na Pratica 
+csharp
+class ContaBancaria
+{
+    private decimal saldo;
+
+    public void Depositar(decimal quantia)
+    {
+        if (quantia > 0)
+        {
+            saldo += quantia;
+        }
+    }
+
+    public decimal ObterSaldo()
+    {
+        return saldo;
+    }
+}
+
+
+## 💻 $\color{red}{\textsf{Abstração e Encapsulamento}}$ Na Pratica 
+csharp
+using System;
+
+abstract class Forma
+{
+    public abstract void Desenhar();
+}
+
+class Circulo : Forma
+{
+    public override void Desenhar()
+    {
+        Console.WriteLine("Desenhando um círculo.");
+    }
+}
+
+class ContaBancaria
+{
+    private decimal saldo;
+
+    public void Depositar(decimal quantia)
+    {
+        if (quantia > 0)
+        {
+            saldo += quantia;
+        }
+    }
+
+    public decimal ObterSaldo()
+    {
+        return saldo;
+    }
+}
+
+class Programa
+{
+    static void Main()
+    {
+        // Abstração com Forma e Circulo
+        Forma forma = new Circulo();
+        forma.Desenhar();
+
+        // Encapsulamento com ContaBancaria
+        ContaBancaria conta = new ContaBancaria();
+        conta.Depositar(1000);
+        Console.WriteLine($"Saldo: {conta.ObterSaldo()}");
+    }
+}
