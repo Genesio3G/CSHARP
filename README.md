@@ -231,3 +231,49 @@ pessoa.NomeCompleto = "Genesio Gonçalves Gabriel";
 pessoa.idade = 12;
 pessoa.Apresentacao();
 `
+
+## 📝 Conceitos sobre Propriedades
+## 💻 $\color{red}{\textsf{Propriedades}}$ Na Pratica 
+## 📝 Conceitos sobre Métodos
+## 💻 $\color{red}{\textsf{Métodos}}$ Na Pratica 
+## 📝 Conceitos sobre Construtores
+## 💻 $\color{red}{\textsf{Construtores}}$ Na Pratica 
+`
+class Carro
+{
+    private string cor;
+    private string modelo;
+
+    // Construtor padrão
+    public Carro()
+    {
+        cor = "Desconhecida";
+        modelo = "Desconhecido";
+    }
+
+    // Construtor com parâmetros
+    public Carro(string cor, string modelo)
+    {
+        this.cor = cor;
+        this.modelo = modelo;
+    }
+
+    public string Cor
+    {
+        get { return cor; }
+        set { cor = value; }
+    }
+
+    public string Modelo
+    {
+        get { return modelo; }
+        set { modelo = value; }
+    }
+
+    public void Dirigir()
+    {
+        Console.WriteLine($"O carro {modelo} de cor {cor} está sendo dirigido.");
+    }
+}
+
+`
