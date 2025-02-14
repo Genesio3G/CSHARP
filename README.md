@@ -527,3 +527,136 @@ class Programa
     }
 }
 ```
+
+
+## 📝 Conceitos sobre Herança
+A herança permite criar uma nova classe baseada em uma classe existente. A nova classe (subclasse) herda atributos e métodos da classe existente (superclasse).
+```
+csharp
+class Animal
+{
+    public void Comer()
+    {
+        Console.WriteLine("O animal está comendo.");
+    }
+}
+
+class Cachorro : Animal
+{
+    public void Latir()
+    {
+        Console.WriteLine("O cachorro está latindo.");
+    }
+}
+```
+## 📝 Conceitos sobre Polimorfismo
+Polimorfismo permite que objetos de diferentes classes sejam tratados como objetos da classe base comum. Ele é principalmente alcançado através da sobrecarga de métodos e da sobreposição de métodos.
+
+### 📝 Conceitos sobre Sobrecarga de Métodos
+Sobrecarga de métodos permite definir múltiplos métodos com o mesmo nome, mas com diferentes parâmetros.
+```
+csharp
+class Calculadora
+{
+    public int Somar(int a, int b)
+    {
+        return a + b;
+    }
+
+    public double Somar(double a, double b)
+    {
+        return a + b;
+    }
+}
+```
+### 📝 Conceitos sobre Sobreposição de Métodos
+Sobreposição de métodos permite que uma subclasse forneça uma implementação específica de um método que já existe na superclasse.
+```
+csharp
+class Animal
+{
+    public virtual void FazerSom()
+    {
+        Console.WriteLine("O animal faz um som.");
+    }
+}
+
+class Gato : Animal
+{
+    public override void FazerSom()
+    {
+        Console.WriteLine("O gato mia.");
+    }
+}
+```
+## Parte Prática
+```
+csharp
+using System;
+
+class Animal
+{
+    public virtual void FazerSom()
+    {
+        Console.WriteLine("O animal faz um som.");
+    }
+
+    public void Comer()
+    {
+        Console.WriteLine("O animal está comendo.");
+    }
+}
+
+class Cachorro : Animal
+{
+    public override void FazerSom()
+    {
+        Console.WriteLine("O cachorro late.");
+    }
+
+    public void Latir()
+    {
+        Console.WriteLine("O cachorro está latindo.");
+    }
+}
+
+class Gato : Animal
+{
+    public override void FazerSom()
+    {
+        Console.WriteLine("O gato mia.");
+    }
+
+    public void Miar()
+    {
+        Console.WriteLine("O gato está miando.");
+    }
+}
+
+class Programa
+{
+    static void Main()
+    {
+        Animal meuAnimal = new Animal();
+        meuAnimal.FazerSom();
+        meuAnimal.Comer();
+
+        Cachorro meuCachorro = new Cachorro();
+        meuCachorro.FazerSom();
+        meuCachorro.Comer();
+        meuCachorro.Latir();
+
+        Gato meuGato = new Gato();
+        meuGato.FazerSom();
+        meuGato.Comer();
+        meuGato.Miar();
+
+        // Exemplo de Polimorfismo
+        Animal animalCachorro = new Cachorro();
+        Animal animalGato = new Gato();
+
+        animalCachorro.FazerSom(); // Chama o método sobreposto em Cachorro
+        animalGato.FazerSom();     // Chama o método sobreposto em Gato
+    }
+}
+```
