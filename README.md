@@ -437,6 +437,7 @@ Os quatro pilares da POO são:
 ## 📝 Conceitos sobre Abstração
 A abstração é o processo de esconder detalhes complexos e mostrar apenas a funcionalidade essencial. Em C#, você pode usar classes e métodos para conseguir isso.
 ## 💻 $\color{red}{\textsf{Abstração}}$ Na Pratica 
+```
 csharp
 abstract class Forma
 {
@@ -450,9 +451,11 @@ class Circulo : Forma
         Console.WriteLine("Desenhando um círculo.");
     }
 }
+```
 ## 📝 Conceitos sobre Encapsulamento
 Encapsulamento é o processo de esconder os detalhes internos de um objeto e proteger seus dados de acesso não autorizado. Você pode usar modificadores de acesso (private, public, protected) para controlar o acesso.
 ## 💻 $\color{red}{\textsf{Encapsulamento}}$ Na Pratica 
+```
 csharp
 class ContaBancaria
 {
@@ -471,9 +474,10 @@ class ContaBancaria
         return saldo;
     }
 }
-
+```
 
 ## 💻 $\color{red}{\textsf{Abstração e Encapsulamento}}$ Na Pratica 
+```
 csharp
 using System;
 
@@ -522,3 +526,4 @@ class Programa
         Console.WriteLine($"Saldo: {conta.ObterSaldo()}");
     }
 }
+```
