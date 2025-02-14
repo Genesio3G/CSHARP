@@ -200,6 +200,16 @@ Tuplas são estruturas de dados que podem armazenar um número fixo de elementos
 var tupla = (nome: "Alice", idade: 30);
 Console.WriteLine($"Nome: {tupla.nome}, Idade: {tupla.idade}");
 ```
+## 📝 Conceitos sobre Operador Ternário
+O operador ternário é uma maneira concisa de escrever uma instrução if-else. Ele tem a forma condição ? valor1 : valor2.
+## 💻 $\color{red}{\textsf{Operador Ternário}}$ Na Pratica 
+```
+int numero = 10;
+string resultado = (numero % 2 == 0) ? "Par" : "Ímpar";
+Console.WriteLine($"O número {numero} é {resultado}.");
+
+```
+
 
 ## 📝 Conceitos sobre Classes
 ```
